@@ -14,7 +14,7 @@ class Model {
                     { ing: "Bell Pepper", quant: 2 },
                 ],
                 img: "https://images.unsplash.com/photo-1599084993091-1cb5c0721cc6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-                blurb: "Healthy but satisfying, and super quick to cook",
+                blurb: "Healthy, satisfying, and super quick to make",
                 recipe: "https://www.myrecipes.com/recipe/cumin-dusted-salmon-fillets",
                 tags: ["All", "Seafood"]
             },
@@ -31,20 +31,20 @@ class Model {
                     { ing: "Flour (g)", quant: 400 },
                 ],
                 img: "https://food-images.files.bbci.co.uk/food/recipes/alpine_pizza_32132_16x9.jpg",
-                blurb: "Dough is surprisingly easy to make. Switch out the toppings with your favourites and make sure the oven is at the hottest setting you can get it when baking",
+                blurb: "Dough is surprisingly easy to make. Switch out the toppings with your favourites and make sure the oven is at the hottest setting you can get it when baking (or use a pizza oven)",
                 recipe: "https://www.sainsburysmagazine.co.uk/recipes/bread/quick-pizza-dough",
                 tags: ["All", "Italian"]
             },
             {
                 id: 3,
-                name: "Veggie Lasagne",
+                name: "Lasagne",
                 ingredients: [
                     { ing: "Red Onion", quant: 1 },
                     { ing: "Carrot", quant: 1 },
                     { ing: "Garlic (cloves)", quant: 3 },
-                    { ing: "Pancetta (g)", quant: 140 },
                     { ing: "Passata (Jar)", quant: 1 },
-                    { ing: "Quorn Mince (g)", quant: 1000 },
+                    { ing: "Beef Mince (g)", quant: 500 },
+                    { ing: "Pork Mince (g)", quant: 500 },
                     { ing: "Milk (ml)", quant: 200 },
                     { ing: "Chopped Tomatoes (cans)", quant: 2 },
                     { ing: "Beef Stock (cubes)", quant: 2 },
@@ -54,7 +54,7 @@ class Model {
                     { ing: "Lasagne Sheets (pack)", quant: 1 },
                 ],
                 img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/classic-lasange-4a66137.jpg?quality=90&webp=true&resize=440,400",
-                blurb: "Classic comfort food with two different meats. Highly decadent. Takes a while to cook so if you're doing it mid-week, start early!",
+                blurb: "Classic comfort food. Takes a while to cook so if you're doing it mid-week, start early!",
                 recipe: "https://www.bbcgoodfood.com/recipes/lasagne",
                 tags: ["All", "Italian"]
             },
@@ -63,16 +63,16 @@ class Model {
                 name: "Quorn Stir Fry",
                 ingredients: [
                     { ing: "Bell Pepper", quant: 2 },
-                    { ing: "Quorn Pieces (g)", quant: 300 },
+                    { ing: "Quorn Pieces (g)", quant: 300},
                     { ing: "Soy Sauce (tbsp)", quant: 3 },
-                    { ing: "Courgette (whole)", quant: 1 },
+                    { ing: "Courgette", quant: 1 },
                     { ing: "Noodles (pack)", quant: 3 },
                     { ing: "Brocolli (whole)", quant: 1 },
                 ],
                 img: "https://www.wellplated.com/wp-content/uploads/2019/07/Ginger-Teriyaki-Chicken-Stir-Fry.jpg",
                 blurb: "Quick and easy mid-week meal with loads of flavour. The veg prep is so simple you don't need to buy pre-packed",
                 recipe: "https://www.bbc.co.uk/food/recipes/how_to_make_chicken_stir_01397",
-                tags: ["All", "Asian"]
+                tags: ["All", "Asia/Thai"]
             },
             {
                 id: 5,
@@ -83,6 +83,7 @@ class Model {
                     { ing: "Cream cheese (g)", quant: 180 },
                     { ing: "Cayenne Pepper (tsp)", quant: 3 },
                     { ing: "Red Onion", quant: 1 },
+                    { ing: "Mixed Salad (bag)", quant: 1 },
                 ],
                 img: "https://images-gmi-pmc.edge-generalmills.com/3512d6fb-41d3-41e7-a66d-f234a5942b6a.jpg",
                 blurb: "Surprisingly filling on their own, but add a garlic bread or cook some rice if you're starving",
@@ -144,39 +145,45 @@ class Model {
             },
             {
                 id: 9,
-                name: "Sausage and Tomato Pasta",
+                name: "Baby sweetcorn and mange tout laksa",
                 ingredients: [
-                    { ing: "Veggie Sausages (pack)", quant: 1 },
-                    { ing: "Chopped Tomatoes (cans)", quant: 1 },
-                    { ing: "Bell Pepper", quant: 2 },
-                    { ing: "Chilli Flakes (tsp)", quant: 2 },
-                    { ing: "Fusilli Pasta (pack)", quant: 0.5 },
-                    { ing: "Brocolli (whole)", quant: 5 },
-                    { ing: "Spinach (pack)", quant: 0.5 },
+                    { ing: "Coconut Oil (tbsp)", quant: 0.5 },
+                    { ing: "Thai Curry Paste (jar)", quant: 0.5},
+                    { ing: "Ginger (g)", quant: 10 },
+                    { ing: "Coconut Milk (cans)", quant: 2 },
+                    { ing: "Vegetable Stock (cubes)", quant: 2 },
+                    { ing: "Mange Tout (pack)", quant: 1 },
+                    { ing: "Baby Sweetcorn (pack)", quant: 1 },
+                    { ing: "Noodles (pack)", quant: 2 },
+                    { ing: "Lime", quant: 1 },
+                    { ing: "Cashews (tbsp)", quant: 2 },
                 ],
-                img: "https://www.eatwell101.com/wp-content/uploads/2019/10/Tomato-Spinach-Sausage-Pasta-800x800.jpg",
-                blurb: "Great batch bake, and reheats nicely. Veggie sausages are just as tasty",
-                recipe: "https://www.bbcgoodfood.com/recipes/saucy-sausage-pasta-0",
-                tags: ["All", "Italian", "Veggie"]
+                img: "https://i0.wp.com/www.vegandinner.net/wp-content/uploads/2020/07/baby-sweetcorn-and-mangetout-laksa-display_image--63433503.jpg?fit=1080%2C1080&ssl=1",
+                blurb: "Healthy and hearty Thai soup",
+                recipe: "https://www.amazon.co.uk/Veggie-Lean-15-15-minute-Workouts/dp/1509856153/ref=asc_df_1509856153/?tag=googshopuk-21&linkCode=df0&hvadid=310762441626&hvpos=&hvnetw=g&hvrand=7194131736094288006&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9045954&hvtargid=pla-574976880190&psc=1&th=1&psc=1",
+                tags: ["All", "Asia/Thai"]
             },
             {
                 id: 10,
-                name: "Chicken & Chorizo Ragu",
+                name: "Courgette caponata pasta",
                 ingredients: [
-                    { ing: "Quorn Chicken Slices (pack)", quant: 1 },
-                    { ing: "Chopped Tomatoes (cans)", quant: 1 },
-                    { ing: "Chicken Stock (cubes)", quant: 1 },
-                    { ing: "Chorizo (pack)", quant: 1 },
-                    { ing: "Chilli Flakes (tsp)", quant: 1 },
-                    { ing: "Sundried Tomatoes (jar)", quant: 0.5 },
+                    { ing: "Red Onion", quant: 1 },
+                    { ing: "Bell Pepper", quant: 2 },
+                    { ingredient: "Courgette", quantity: 3 },
                     { ing: "Garlic (cloves)", quant: 2 },
-                    { ing: "Paprika (tsp)", quant: 2 },
+                    { ing: "Chilli Flakes (tsp)", quant: 1 },
                     { ing: "Lemon (whole)", quant: 1 },
+                    { ing: "Cinnamon (tsp)", quant: 0.25 },
+                    { ing: "Chopped Tomatoes (cans) ", quant: 1 },
+                    { ing: "Red wine vinegar (tbsp)", quant: 1 },
+                    { ing: "Honey (tsp)", quant: 1 },
+                    { ing: "Capers (tbsp)", quant: 2 },
+                    { ing: "Conchiglie (pack)", quant: 1 },
                 ],
-                img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken-chorizo-ragu-95dc274.jpg?quality=90&webp=true&resize=440,400",
-                blurb: "Great batch bake, and reheats nicely. Veggie sausages are just as tasty",
-                recipe: "https://www.bbcgoodfood.com/recipes/chicken-chorizo-ragu",
-                tags: ["All", "Spanish"]
+                img: "https://www.hairybikers.com/uploads/images/_recipeImage/COURGETTE_CAPONATA.jpg",
+                blurb: "Caponata is a punchy vegetable dish that can be eaten on its own but it’s also great with pasta",
+                recipe: "https://www.hairybikers.com/recipes/view/courgette-caponata-pasta",
+                tags: ["All", "Italian"]
             },
             {
                 id: 11,
@@ -219,7 +226,7 @@ class Model {
             },
             {
                 id: 13,
-                name: "Chicken Curry",
+                name: "Quorn tikka masala",
                 ingredients: [
                     { ing: "Quorn Pieces (g)", quant: 500 },
                     { ing: "Ginger (g)", quant: 50 },
@@ -254,7 +261,7 @@ class Model {
                 img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/easy-chicken-curry-aa22a0b.jpg?quality=90&webp=true&resize=440,400",
                 blurb: "Seriously good thai curry. Great for a quick mid-week dinner",
                 recipe: "https://www.bbcgoodfood.com/recipes/thai-green-chicken-curry",
-                tags: ["All", "Veggie", "Thai"]
+                tags: ["All", "Veggie", "Asia/Thai"]
             },
             {
                 id: 15,
@@ -314,7 +321,7 @@ class Model {
                 img: "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/04/pad-thai.jpg",
                 blurb: "A takeaway classic for a fraction of the price. Tip: For the best eggs, make an omlette, fold it over, then chop it up and add to the mix. Don't add the raw egg directly into the pad thai mix",
                 recipe: "https://www.bbcgoodfoodme.com/recipes/next-level-pad-thai/",
-                tags: ["All", "Veggie", "Thai"]
+                tags: ["All", "Veggie", "Asia/Thai"]
             },
             {
                 id: 18,
@@ -322,7 +329,7 @@ class Model {
                 ingredients: [
                     { ingredient: "Puff Pastry (block)", quantity: 1 },
                     { ingredient: "Red Onion ", quantity: 1 },
-                    { ingredient: "Courgette (whole)", quantity: 1 },
+                    { ingredient: "Courgette", quantity: 1 },
                     { ingredient: "Bell Pepper", quantity: 2 },
                     { ingredient: "Garlic (cloves) ", quantity: 2 },
                     { ingredient: "Cherry Tomato (whole)", quantity: 8 },
@@ -358,7 +365,7 @@ class Model {
                 img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/satay-noodle-bowl-311c60e.jpg?quality=90&webp=true&resize=440,400",
                 blurb: "A sort of Thai style ramen. Seriously delicious and hard to have only one bowl. Makes 4 bowls if you can resist seconds.",
                 recipe: "https://www.bbcgoodfood.com/recipes/satay-noodle-soup",
-                tags: ["All", "Veggie", "Thai"]
+                tags: ["All", "Veggie", "Asia/Thai"]
             },
             {
                 id: 20,
@@ -382,39 +389,44 @@ class Model {
             },
             {
                 id: 21,
-                name: "Haddock & corn curry",
+                name: "Lemon veg and mozzarella roast",
                 ingredients: [
-                    { ing: "Sweetcorn (can)", quant: 2 },
-                    { ing: "White Onion", quant: 1 },
-                    { ing: "Curry Powder (tsp)", quant: 1 },
-                    { ing: "Garlic (cloves)", quant: 1 },
-                    { ing: "Coconut Milk (can)", quant: 0.5 },
-                    { ing: "Frozen Haddock (fillets)", quant: 3 },
-                    { ing: "Rice (pack)", quant: 0.5 },
+                    { ing: "Lemon", quant: 1 },
+                    { ing: "Turmeric (tsp)", quant: 1 },
+                    { ing: "Chilli Flakes (tsp)", quant: 1},
+                    { ing: "White Potato (g)", quant: 800 },
+                    { ing: "White Onion", quant: 2 },
+                    { ingredient: "Cherry Tomato (whole)", quantity: 15},
+                    { ing: "Fresh mozzarella (pack)", quant: 2 },
+                    { ing: "Pumpkin seeds (tbsp)", quant: 4 },
+                    { ing: "Capers (tbsp)", quant: 2 },
+
                 ],
-                img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/haddock-curry-576c51b.jpg?quality=90&webp=true&resize=300,272",
-                blurb: "Simple, tasty and surprisingly filling. Mild curry that makes 2 servings",
-                recipe: "https://www.bbcgoodfood.com/recipes/smoked-haddock-creamed-corn-curry",
-                tags: ["All", "Veggie", "Seafood"]
+                img: "https://images.ckbk.com/eyJrZXkiOiJpbWFnZXMvcGFydDkyNjU4YzAzczAwMXIwMDhnMDEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZSwid2lkdGgiOjEwMjQsImhlaWdodCI6NzY4LCJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoiZW50cm9weSJ9fX0=",
+                blurb: "Everything mixed together and put in the oven. simple and satisfying",
+                recipe: "https://www.amazon.co.uk/Part-Time-Vegetarian-Flexible-Recipes-Meat-Free/dp/1848992653",
+                tags: ["All", "Veggie", "Italian"]
             },
             {
                 id: 22,
-                name: "Sausage & bean one-pot",
+                name: "Pan-fried chimichurri gnocchi with steak",
                 ingredients: [
-                    { ing: "Red Onion", quant: 1 },
-                    { ing: "Veggie Sausages (pack)", quant: 1 },
-                    { ing: "Garlic (cloves)", quant: 1 },
-                    { ing: "Kidney Beans in chilli sauce (can)", quant: 2 },
-                    { ing: "Thyme (sprig)", quant: 1 },
-                    { ing: "White Potato (g)", quant: 500 },
-                    { ing: "Butter (g)", quant: 50 },
-                    { ing: "Mustard (tsp)", quant: 2 },
-                    { ing: "Cabbage (whole)", quant: 1 },
+                    { ingredient: "Cherry Tomato (whole)", quantity: 5 },
+                    { ing: "Roasted Red Pepper (jar)", quant: 0.5 },
+                    { ing: "Gnocchi (pack)", quant: 1 },
+                    { ing: "Parsley (bunch)", quant: 1 },
+                    { ing: "Oregano (bunch)", quant: 0.5 },
+                    { ing: "Garlic (cloves)", quant: 2 },
+                    { ing: "Chilli Pepper (whole)", quant: 2 },
+                    { ing: "Lemon", quant: 1 },
+                    { ing: "White wine vinegar (tbsp)", quant: 1 },
+                    { ing: "Sirloin steak", quant: 2 },
+
                 ],
-                img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/sausage-casserole-5644b25.jpg?quality=90&webp=true&resize=300,272",
-                blurb: "Minimal clean up with this spicy one-pot (not including a pot for mash!)",
-                recipe: "https://www.bbcgoodfood.com/recipes/spicy-sausage-bean-one-pot",
-                tags: ["All", "Veggie", "British"]
+                img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/gnocchi-with-herb-sauce-7863963.jpg?resize=960,872?quality=90&webp=true&resize=556,505",
+                blurb: "Fragrant, fiery and speedy meal",
+                recipe: "https://www.amazon.co.uk/Part-Time-Vegetarian-Flexible-Recipes-Meat-Free/dp/1848992653",
+                tags: ["All", "Spanish"]
             },
             {
                 id: 23,
@@ -439,22 +451,23 @@ class Model {
             },
             {
                 id: 24,
-                name: "Prawn and Salmon burgers",
+                name: "Peppered duck with mash and ragout",
                 ingredients: [
-                    { ing: "King Prawns (pack)", quant: 1 },
-                    { ing: "Salmon fillet", quant: 2 },
-                    { ing: "Spring Onion", quant: 1 },
-                    { ing: "Lemon", quant: 1 },
-                    { ing: "Mayonnaise (tbsp)", quant: 5 },
-                    { ing: "Chilli Sauce (tsp)", quant: 4 },
-                    { ing: "Gem Lettuce (whole)", quant: 1 },
-                    { ing: "Cucumber (whole)", quant: 1 },
-                    { ing: "Bread buns", quant: 4 },
+                    { ing: "Duck breast", quant: 2 },
+                    { ing: "Lardons (pack)", quant: 1 },
+                    { ing: "Wild mushrooms (pack)", quant: 1 },
+                    { ing: "Port (tbsp)", quant: 2 },
+                    { ing: "Peas (g)", quant: 100},
+                    { ing: "Chicken Stock (cubes)", quant: 1 },
+                    { ing: "White Potato (g)", quant: 500 },
+                    { ing: "Double Cream (ml)", quant: 30 },
+                    { ing: "Vanilla pod (pods)", quant: 2 },
+                    { ing: "Butter (g)", quant: 25 },
                 ],
-                img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/prawn-salmon-burgers-with-spicy-mayo-2318455.jpg?quality=90&webp=true&resize=440,400",
-                blurb: "A tad more effort but so worth it. These are amazing",
-                recipe: "https://www.bbcgoodfood.com/recipes/prawn-salmon-burgers-spicy-mayo",
-                tags: ["All", "Veggie", "Seafood"]
+                img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-967562_11-7f56329.jpg?resize=960,872?quality=90&webp=true&resize=600,545",
+                blurb: "A bistro-style dish of rare duck with Marsala jus, creamy mashed potatoes and sweet peas",
+                recipe: "https://www.bbcgoodfood.com/recipes/peppered-duck-vanilla-mash-pea-wild-mushroom-ragout",
+                tags: ["All", "British"]
             },
             {
                 id: 25,
@@ -470,31 +483,10 @@ class Model {
                 img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/thai-green-pork-lettuce-cups-f3165ca.jpg?quality=90&webp=true&resize=440,400",
                 blurb: "Delicious, healthy, easy. Switch pork for quorn, it's just as tasty",
                 recipe: "https://www.bbcgoodfood.com/recipes/thai-green-pork-lettuce-cups",
-                tags: ["All", "Veggie", "Thai"]
+                tags: ["All", "Veggie", "Asia/Thai"]
             },
             {
                 id: 26,
-                name: "Homity Pie",
-                ingredients: [
-                    { ing: "Butter (g)", quant: 150 },
-                    { ing: "White Onion", quant: 2 },
-                    { ing: "Leeks", quant: 1 },
-                    { ing: "Thyme (sprig)", quant: 1 },
-                    { ing: "White Potato (g)", quant: 700 },
-                    { ing: "Double Cream (ml)", quant: 150 },
-                    { ing: "Cheddar Cheese (pack)", quant: 1 },
-                    { ing: "Spring Onion", quant: 2 },
-                    { ing: "Flour (g)", quant: 200 },
-                    { ing: "Cayenne Pepper (tsp)", quant: 0.5 },
-                    { ing: "Eggs", quant: 1 },
-                ],
-                img: "https://images.immediate.co.uk/production/volatile/sites/30/2021/03/Homity-pie-7932414.jpg?quality=90&webp=true&resize=600,545",
-                blurb: "A veggie showstopper and pleasantly filling. Serve with salad",
-                recipe: "https://www.bbcgoodfood.com/recipes/homity-pie",
-                tags: ["All", "Veggie", "British"]
-            },
-            {
-                id: 27,
                 name: "Pasta Primavera",
                 ingredients: [
                     { ing: "Butter (g)", quant: 50 },
@@ -514,7 +506,7 @@ class Model {
                 tags: ["All", "Veggie", "Italian"]
             },
             {
-                id: 28,
+                id: 27,
                 name: "Jackfruit Burgers",
                 ingredients: [
                     { ing: "Jackfruit (g)", quant: 400 },
@@ -530,45 +522,6 @@ class Model {
                 blurb: "Jackfruit is a great vegan alternative to pork and this spicy little number makes 5-6 burgers",
                 recipe: "https://www.olivemagazine.com/recipes/vegan/bbq-jackfruit-buns-with-apple-slaw/",
                 tags: ["All", "Veggie"]
-            },
-            {
-                id: 29,
-                name: "Satay Sweet Potato Curry",
-                ingredients: [
-                    { ing: "Sweet Potatoes", quant: 2 },
-                    { ing: "Coconut Oil (tbsp)", quant: 2 },
-                    { ing: "White Onion", quant: 1 },
-                    { ing: "Garlic (cloves)", quant: 2 },
-                    { ing: "Ginger (g)", quant: 25 },
-                    { ing: "Chilli Flakes (tsp)", quant: 2 },
-                    { ing: "Tomato Puree (tbsp)", quant: 1 },
-                    { ing: "Cumin (tsp)", quant: 2 },
-                    { ing: "Peanut Butter (tbsp)", quant: 3 },
-                    { ing: "Kale (g)", quant: 150 },
-                    { ing: "Lime", quant: 2 },
-                    { ing: "Peanuts (g)", quant: 50 },
-                ],
-                img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/satay-sweet-potato-curry-17cc62d.jpg?quality=90&webp=true&resize=440,400",
-                blurb: "Hearty curry and with a defining Thai flavour. Can be served with rice if you're starving.",
-                recipe: "https://www.amazon.co.uk/Veggie-Lean-15-15-minute-Workouts/dp/1509856153/ref=sr_1_1?adgrpid=64279049948&dchild=1&gclid=CjwKCAjwmv-DBhAMEiwA7xYrd6vtnIM1Fc27_Ga5yxcHgRBj_166cFsUcKPCGFQyAx6C8SXxbJOkqxoCYXYQAvD_BwE&hvadid=272987593675&hvdev=c&hvlocphy=1006886&hvnetw=g&hvqmt=e&hvrand=17633253006835304323&hvtargid=kwd-458493860371&hydadcr=12303_1769397&keywords=veggie+lean+in+15&qid=1619000048&sr=8-1",
-                tags: ["All", "Veggie", "Thai"]
-            },
-            {
-                id: 30,
-                name: "Smokey Pepper Pesto Stew",
-                ingredients: [
-                    { ing: "Red Onion", quant: 2 },
-                    { ing: "Smoked Paprika (tsp)", quant: 2 },
-                    { ing: "Tinned Cherry Tomatoes (can)", quant: 2 },
-                    { ing: "Butter Beans (can)", quant: 2 },
-                    { ing: "Basil Pesto (tbsp)", quant: 4 },
-                    { ing: "Roasted Red Pepper (jar)", quant: 1 },
-                    { ing: "Red wine vinegar (tbsp)", quant: 1 },
-                ],
-                img: "https://www.deliciousmagazine.co.uk/wp-content/uploads/2018/09/chicken-and-veg-tray-bake-768x960.jpg",
-                blurb: "Warm, smokey stew perfect for a cold night in.",
-                recipe: "https://www.amazon.co.uk/Veggie-Lean-15-15-minute-Workouts/dp/1509856153/ref=sr_1_1?adgrpid=64279049948&dchild=1&gclid=CjwKCAjwmv-DBhAMEiwA7xYrd6vtnIM1Fc27_Ga5yxcHgRBj_166cFsUcKPCGFQyAx6C8SXxbJOkqxoCYXYQAvD_BwE&hvadid=272987593675&hvdev=c&hvlocphy=1006886&hvnetw=g&hvqmt=e&hvrand=17633253006835304323&hvtargid=kwd-458493860371&hydadcr=12303_1769397&keywords=veggie+lean+in+15&qid=1619000048&sr=8-1",
-                tags: ["All", "Veggie", "Italian"]
             },
         ]
 
@@ -599,15 +552,16 @@ class Model {
 class View {
     constructor() {
         this.mealList = this.getElement('#recipe-card-container'),
-            this.curMealList = this.getElement('#current-meals'),
-            this.curIngList = this.getElement('#shopping-list'),
+            this.curMealList = this.getElement('.current-meals'),
+            this.curIngList = this.getElement('.shopping-list'),
             this.shopListWrap = this.getElement('#shopping-list-aside'),
             this.searchForm = this.getElement('.search-form'),
             this.searchInput = this.getElement('#search-input'),
             this.cuisBtns = this.getNodeList('.cuisine-item'),
-            this.menuCart = this.getElement('.cart'),
             this.closeMenu = this.getElement('.close-menu'),
-            this.mealCount = this.getElement('.meal-count')
+            this.mealCount = this.getElement('.meal-count'),
+            this.randMeal = this.getElement('#featured-meal'),
+            this.mainSec = this.getElement('#main-section')
     }
 
     getElement(selector) {
@@ -622,7 +576,6 @@ class View {
 
     bindDeleteIng() {
         this.curIngList.addEventListener("click", e => {
-            console.log(e)
             if (e.target.classList.contains('delete-ing')) {
                 let ing = e.target.parentElement
                 ing.remove()
@@ -630,24 +583,63 @@ class View {
         })
     }
 
+
+
     displayMeals(meals) {
         for (let m of meals) {
             let mealLine = `
 
-        <div class="cell small-12 large-6 recipe-card" id="${m.id}" style="background-image: url('${m.img}')";>
-            <div class="overlay">
-                <h3 class="recipe-card-header">
-                    ${m.name}
-                </h3>
+            <div class="col-sm-12 col-md-6">
+                        <div class="card" id="${m.id}">
+                            <img src= "${m.img}" class="card-img-top img-fluid" alt="...">
+                            <div class="card-body ">
+                                <h5 class="card-title">${m.name}</h5>
+                                <p class="card-text ">${m.blurb}.</p>
+                            </div>
+                            <div class="card-links">
+                                <a href="${m.recipe}" class="btn btn-primary ">Recipe</a>
+                                <span class="btn btn-primary add-meal ">Add meal</span>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="recipe-card-buttons">
-                    <a href="${m.recipe}" class="btn btn-light recipe-card-link recipe-link">Recipe</a>
-                    <a class="btn btn-light recipe-card-link add-meal">Add to cart</a>
-                </div>
-            </div>
-        </div>
             `
             this.mealList.insertAdjacentHTML('beforeend', mealLine)
+        }
+    }
+
+    featuredMeal(meal) {
+        function generateRandom(maxLimit = 100) {
+            let rand = Math.random() * maxLimit;
+
+            rand = parseInt(Math.floor(rand));
+
+            return rand;
+        }
+
+        let randId = generateRandom(27);
+
+        for (let m of meal) {
+            if (m.id == randId) {
+                let featMeal = `
+                <div class="col-sm-12 col-md-6">
+                            <div class="card" id="${m.id}">
+                                <img src= "${m.img}" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body ">
+                                    <h5 class="card-title ">${m.name}</h5>
+                                    <p class="card-text ">${m.blurb}.</p>
+                                </div>
+                                <div class="card-links">
+                                    <a href="${m.recipe}" class="btn btn-primary ">Recipe</a>
+                                    <span class="btn btn-primary add-meal ">Add meal</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                `
+                this.randMeal.insertAdjacentHTML('beforeend', featMeal)
+
+            }
         }
     }
 
@@ -676,7 +668,7 @@ class View {
         for (let m of curMeals) {
             let mealLine = `
             <div class="meal-line" id="${m.id}" >
-            <h4>${m.name}</h4>
+            <h5 class="semibold-heading">${m.name}</h5>
             <i class="fas fa-trash delete-meal"></i>
         </div> 
             `
@@ -716,9 +708,11 @@ class View {
     }
 
     bindAddMeal(handler) {
-        this.mealList.addEventListener('click', event => {
+        this.mainSec.addEventListener('click', event => {
             if (event.target.classList.contains('add-meal')) {
-                const id = parseInt(event.target.parentElement.parentElement.parentElement.id)
+                const id = parseInt(event.target.parentElement.parentElement.id)
+                console.log(id)
+
 
                 event.target.textContent = "Added to order"
 
@@ -731,8 +725,9 @@ class View {
                 curCount = curCount + 1
                 this.mealCount.innerHTML = curCount
 
-
                 handler(id)
+            } else {
+                console.log("didnt'work")
             }
         })
     }
@@ -762,7 +757,6 @@ class View {
                     mealList.push(m)
                 }
             }
-
             this.mealList.innerHTML = " "
             this.displayMeals(mealList)
         });
@@ -797,26 +791,6 @@ class View {
         }
     }
 
-    bindOpenMenu() {
-        this.menuCart.addEventListener('click', e => {
-            if (this.shopListWrap.classList.contains("hide")) {
-                this.shopListWrap.classList.remove("hide")
-            } else {
-                this.shopListWrap.classList.add("hide")
-            }
-        })
-    }
-
-    bindCloseMenu() {
-        this.closeMenu.addEventListener('click', e => {
-            if (this.shopListWrap.classList.contains("hide")) {
-                this.shopListWrap.classList.remove("hide")
-            } else {
-                this.shopListWrap.classList.add("hide")
-            }
-        })
-    }
-
 
 
 }
@@ -836,13 +810,12 @@ class Controller {
         this.view.bindAddMeal(this.handleAddMeal)
         this.view.bindDeleteMeal(this.handleDeleteMeal)
         this.view.bindDeleteIng(this.handleDeleteIng)
-        this.view.bindOpenMenu(this.handleOpenList)
-        this.view.bindCloseMenu(this.handleOpenList)
 
     }
 
     initMealLoad = (meals) => {
         this.view.displayMeals(meals)
+        this.view.featuredMeal(meals)
     }
 
     initAutoComplete = (meals) => {
@@ -863,13 +836,6 @@ class Controller {
         this.view.deleteIng()
     }
 
-    handleOpenList = () => {
-        this.view.toggleMenu();
-    }
-
-    handleCloseList = () => {
-        this.view.toggleMenu();
-    }
 
 }
 
