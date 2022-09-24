@@ -200,6 +200,10 @@ main #shopping-list .offcanvas {
   padding: 20px;
   overflow: scroll;
 }
+main #shopping-list .btn-close {
+  position: absolute;
+  right: 5%;
+}
 main #shopping-list .meal-line, main #shopping-list .ing-line {
   display: flex;
   justify-content: space-between;
