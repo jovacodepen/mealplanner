@@ -183,7 +183,7 @@ class Model {
                 img: "https://www.hairybikers.com/uploads/images/_recipeImage/COURGETTE_CAPONATA.jpg",
                 blurb: "Caponata is a punchy vegetable dish that can be eaten on its own but it’s also great with pasta",
                 recipe: "https://www.hairybikers.com/recipes/view/courgette-caponata-pasta",
-                tags: ["All", "Italian"]
+                tags: ["All", "Italian", "Veggie"]
             },
             {
                 id: 11,
@@ -191,13 +191,12 @@ class Model {
                 ingredients: [
                     { ing: "Quorn Chicken Slices (pack)", quant: 1 },
                     { ing: "Salsa (jar)", quant: 1 },
-                    { ing: "Chicken Stock (cubes)", quant: 1 },
                     { ing: "Chilli Flakes (tsp)", quant: 1 },
                     { ing: "Mushroom (whole)", quant: 5 },
                     { ing: "Garlic (cloves)", quant: 2 },
                     { ing: "Red Onion", quant: 1 },
                     { ing: "Bell Pepper", quant: 2 },
-                    { ing: "Lemon (whole)", quant: 1 },
+                    { ing: "Lime (whole)", quant: 1 },
                     { ing: "Mozzarella Cheese (pack)", quant: 1 },
                     { ing: "Wraps (pack)", quant: 0.5 },
                 ],
@@ -319,9 +318,9 @@ class Model {
                     { ing: "Sweet Chilli Sauce (tbsp)", quant: 4 },
                 ],
                 img: "https://www.bbcgoodfoodme.com/assets/legacy/recipe/recipe-image/2019/04/pad-thai.jpg",
-                blurb: "A takeaway classic for a fraction of the price. Tip: For the best eggs, make an omlette, fold it over, then chop it up and add to the mix. Don't add the raw egg directly into the pad thai mix",
+                blurb: "A takeaway classic for a fraction of the price",
                 recipe: "https://www.bbcgoodfoodme.com/recipes/next-level-pad-thai/",
-                tags: ["All", "Veggie", "Asia/Thai"]
+                tags: ["All", "Seafood", "Asia/Thai"]
             },
             {
                 id: 18,
@@ -378,25 +377,25 @@ class Model {
                     { ing: "Butter (g)", quant: 25 },
                     { ing: "King Prawns (pack)", quant: 1 },
                     { ing: "Tarragon (tsp)", quant: 1 },
-                    { ing: "Lemon", quant: 1 },
+                    { ingredient: "Lemon (whole)", quantity: 1 },
                     { ing: "Shallots (pack)", quant: 0.5 },
                     { ing: "White Wine (ml)", quant: 60 },
                 ],
                 img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1284537_7-ce34894.jpg?quality=90&webp=true&resize=440,400",
                 blurb: "Decadent but light, we switched the potato with pasta but have it with whatever you fancy",
                 recipe: "https://www.bbcgoodfood.com/recipes/sea-trout-samphire-potted-shrimp-Lemon",
-                tags: ["All", "Veggie", "Seafood"]
+                tags: ["All", "Seafood"]
             },
             {
                 id: 21,
                 name: "Lemon veg and mozzarella roast",
                 ingredients: [
-                    { ing: "Lemon", quant: 1 },
+                    { ing: "Lemon (whole)", quant: 1 },
                     { ing: "Turmeric (tsp)", quant: 1 },
                     { ing: "Chilli Flakes (tsp)", quant: 1},
                     { ing: "White Potato (g)", quant: 800 },
                     { ing: "White Onion", quant: 2 },
-                    { ingredient: "Cherry Tomato (whole)", quantity: 15},
+                    { ing: "Cherry Tomato (whole)", quant: 15},
                     { ing: "Fresh mozzarella (pack)", quant: 2 },
                     { ing: "Pumpkin seeds (tbsp)", quant: 4 },
                     { ing: "Capers (tbsp)", quant: 2 },
@@ -411,14 +410,14 @@ class Model {
                 id: 22,
                 name: "Pan-fried chimichurri gnocchi with steak",
                 ingredients: [
-                    { ingredient: "Cherry Tomato (whole)", quantity: 5 },
+                    { ing: "Cherry Tomato (whole)", quant: 5 },
                     { ing: "Roasted Red Pepper (jar)", quant: 0.5 },
                     { ing: "Gnocchi (pack)", quant: 1 },
                     { ing: "Parsley (bunch)", quant: 1 },
                     { ing: "Oregano (bunch)", quant: 0.5 },
                     { ing: "Garlic (cloves)", quant: 2 },
                     { ing: "Chilli Pepper (whole)", quant: 2 },
-                    { ing: "Lemon", quant: 1 },
+                    { ing: "Lemon (whole)", quant: 1 },
                     { ing: "White wine vinegar (tbsp)", quant: 1 },
                     { ing: "Sirloin steak", quant: 2 },
 
@@ -447,7 +446,7 @@ class Model {
                 img: "https://www.thewholesomedish.com/wp-content/uploads/2019/06/The-Best-Classic-Tacos-550.jpg",
                 blurb: "Homemade soft shell tacos and salsa makes this one of our absolute favourite recipes",
                 recipe: "https://www.thewholesomedish.com/the-best-homemade-tacos/",
-                tags: ["All", "Veggie", "Mexican"]
+                tags: ["All", "Mexican"]
             },
             {
                 id: 24,
@@ -496,7 +495,7 @@ class Model {
                     { ing: "Edamame Beans (g)", quant: 100 },
                     { ing: "Spinach (pack)", quant: 0.5 },
                     { ing: "Tagliatelle (g)", quant: 400 },
-                    { ing: "Lemon", quant: 1 },
+                    { ing: "Lemon (whole)", quant: 1 },
                     { ing: "Mixed herbs (tsp)", quant: 2 },
                     { ing: "Parmesan Cheese (g)", quant: 20 },
                 ],
@@ -522,6 +521,83 @@ class Model {
                 blurb: "Jackfruit is a great vegan alternative to pork and this spicy little number makes 5-6 burgers",
                 recipe: "https://www.olivemagazine.com/recipes/vegan/bbq-jackfruit-buns-with-apple-slaw/",
                 tags: ["All", "Veggie"]
+            },
+            {
+                id: 28,
+                name: "Halloumi Wraps",
+                ingredients: [
+                    { ing: "Halloumi (block)", quant: 2 },
+                    { ing: "Red Onion", quant: 1 },
+                    { ing: "Salsa (jar)", quant: 1 },
+                    { ing: "Chilli Flakes (tsp)", quant: 1 },
+                    { ing: "Mushroom (whole)", quant: 5 },
+                    { ing: "Garlic (cloves)", quant: 2 },
+                    { ing: "Bell Pepper", quant: 2 },
+                    { ing: "Lime (whole)", quant: 1 },
+                    { ing: "Wraps (pack)", quant: 0.5 },
+                    { ing: "Avocado", quant: 1 },
+                ],
+                img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/halloumi-fajitas-ac81223.jpg?quality=90&webp=true&resize=300,272",
+                blurb: "Halloumi tortilla wraps with avocado for a quick and easy after work dinner",
+                recipe: "https://www.bbcgoodfood.com/recipes/halloumi-fajitas",
+                tags: ["All", "Veggie", "Mexican"]
+            },
+            {
+                id: 29,
+                name: "Veggie Yaki Udon",
+                ingredients: [
+                    { ing: "Red Onion", quant: 1 },
+                    { ing: "Mange Tout (pack)", quant: 1 },
+                    { ing: "Baby Sweetcorn (pack)", quant: 1 },
+                    { ing: "Pak Choi (whole)", quant: 2 },
+                    { ing: "Spring Onion", quant: 3 },
+                    { ing: "Garlic (cloves)", quant: 1 },
+                    { ing: "Curry Powder (tbsp)", quant: 0.5 },
+                    { ing: "Udon Noodles (pack)", quant: 1 },
+                    { ing: "Sushi Ginger (tbsp)", quant: 1 },
+                ],
+                img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/yaki-udon-19d4efb.jpg?quality=90&webp=true&resize=300,272",
+                blurb: "Pack in the veg with this flavour-packed Japanese-inspired yaki udon",
+                recipe: "https://www.bbcgoodfood.com/recipes/veggie-yaki-udon",
+                tags: ["All", "Veggie", "Asia/Thai"]
+            },
+            {
+                id: 30,
+                name: "Veggie Ramen",
+                ingredients: [
+                    { ing: "Ginger (g)", quant: 5 },
+                    { ing: "Spring Onion", quant: 4 },
+                    { ing: "Garlic (cloves)", quant: 1 },
+                    { ing: "Rice wine vinegar (tbsp)", quant: 2 },
+                    { ing: "Vegetable Stock (cubes)", quant: 2 },
+                    { ing: "Shiitake Mushrooms (pack)", quant: 1 },
+                    { ing: "Eggs (whole)", quant: 2 },
+                    { ing: "Spinach (pack)", quant: 0.5 },
+                    { ing: "Udon Noodles (pack)", quant: 1 },
+                    { ing: "Carrot", quant: 1 },
+                ],
+                img: "https://www.aheadofthyme.com/wp-content/uploads/2017/01/quick-and-easy-vegetarian-ramen-11-1024x683.jpg",
+                blurb: "Quick and easy vegetarian ramen",
+                recipe: "https://www.aheadofthyme.com/2017/01/quick-and-easy-vegetarian-ramen/",
+                tags: ["All", "Veggie", "Asia/Thai"]
+            },
+            {
+                id: 31,
+                name: "Chicken Casserole",
+                ingredients: [
+                    { ing: "Chicken breast (whole)", quant: 6 },
+                    { ing: "White Onion", quant: 1 },
+                    { ing: "Carrot", quant: 5 },
+                    { ing: "New Potatoes (g)", quant: 300 },
+                    { ing: "Celery (sticks)", quant: 2 },  
+                    { ing: "Chicken gravy granules (pack)", quant: 1 },
+                    { ing: "Mushroom (whole)", quant: 10 },
+                    { ing: "Chicken Stock (cubes)", quant: 2 },
+                ],
+                img: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/slow-cooker-chicken-casserole-1172edc.jpg?quality=90&webp=true&resize=300,272",
+                blurb: "Wholesome chicken casserole that delivers comfort while being low-fat",
+                recipe: "https://www.bbcgoodfood.com/recipes/slow-cooker-chicken-casserole",
+                tags: ["All", "British"]
             },
         ]
 
