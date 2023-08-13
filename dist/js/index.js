@@ -532,7 +532,7 @@ class Model {
                     { ing: "Mushroom (whole)", quant: 5 },
                     { ing: "Garlic (cloves)", quant: 2 },
                     { ing: "Bell Pepper", quant: 2 },
-                    { ing: "Lime (whole)", quant: 1 },
+                    { ing: "Lime", quant: 1 },
                     { ing: "Wraps (pack)", quant: 0.5 },
                     { ing: "Avocado", quant: 1 },
                 ],
