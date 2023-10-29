@@ -598,6 +598,26 @@ class Model {
                 recipe: "https://www.bbcgoodfood.com/recipes/slow-cooker-chicken-casserole",
                 tags: ["All", "British"]
             },
+            {
+                id: 32,
+                name: "Shredded Chilli Chicken",
+                ingredients: [
+                    { ing: "Chicken breast (whole)", quant: 3 },
+                    { ing: "White Onion", quant: 1 },
+                    { ing: "Chopped Tomatoes (cans)", quant: 3 },
+                    { ing: "Chicken Stock (cubes)", quant: 2 },
+                    { ing: "Garlic (cloves)", quant: 4 },
+                    { ing: "Chili Powder (tbsp)", quant: 1 },
+                    { ing: "Cumin (tsp)", quant: 1 },
+                    { ing: "Oregano (bunch)", quant: 0.5 },
+                    { ing: "Black Beans (cans)", quant: 2 },
+                    { ing: "Sweetcorn (cans)", quant: 2 },
+                ],
+                img: "https://www.simplyrecipes.com/thmb/HsfSk0V3wfsUwOhWmwzNb14N1MU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2016__09__2016-09-28-Stubbs-Chicken-Chili-10-42efc42b0bc345caa6638ad86c8dd844.jpg",
+                blurb: "Easy chicken chili recipe perfect for busy days",
+                recipe: "https://www.simplyrecipes.com/recipes/slow_cooker_shredded_chicken_chili/",
+                tags: ["All", "British"]
+            }
         ]
 
         this.curList = [];
