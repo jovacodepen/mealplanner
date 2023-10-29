@@ -232,7 +232,7 @@ class Model {
                     { ing: "Garlic (cloves)", quant: 6 },
                     { ing: "Red Onion", quant: 1 },
                     { ing: "Tikka paste (jar)", quant: 3 },
-                    { ing: "Chopped Tomatoes (cans) ", quant: 1 },
+                    { ing: "Chopped Tomatoes (cans)", quant: 1 },
                     { ing: "Greek Yoghurt (g)", quant: 100 },
                     { ing: "Ground Almonds (g)", quant: 50 },
                 ],
@@ -617,6 +617,68 @@ class Model {
                 blurb: "Easy chicken chili recipe perfect for busy days",
                 recipe: "https://www.simplyrecipes.com/recipes/slow_cooker_shredded_chicken_chili/",
                 tags: ["All", "British"]
+            },
+            {
+                id: 33,
+                name: "Slow Cook Pork Stew",
+                ingredients: [
+                    { ing: "Pork Shoulder (whole)", quant: 1 },
+                    { ing: "White Onion", quant: 1 },
+                    { ing: "Garlic (cloves)", quant: 3 },
+                    { ing: "Thyme (bunch)", quant: 0.5 },
+                    { ing: "Sage (bunch)", quant: 0.5 },
+                    { ing: "Butter Beans (can)", quant: 2 },
+                    { ing: "Chicken Stock (cubes)", quant: 2 },
+                    { ing: "Tomato Puree (tbsp)", quant: 2 },
+                    { ing: "Courgette", quant: 2 },
+
+                ],
+                img: "https://img.bestrecipes.com.au/taNOpzR5/w643-h428-cfill-q90/br/2016/08/slow-cooker-pork-stew-519044-1.jpg",
+                blurb: "Hearty and warm pork stew perfect for winter nights",
+                recipe: "https://www.bestrecipes.com.au/recipes/slow-cooker-pork-stew-recipe/3h0kps90",
+                tags: ["All", "British"]
+            },
+            {
+                id: 34,
+                name: "Slow Cook Massaman Curry",
+                ingredients: [
+                    { ing: "Beef Short Ribs (pack)", quant: 2 },
+                    { ing: "New Potatoes (g)", quant: 300 },
+                    { ing: "White Onion", quant: 1 },
+                    { ing: "Massaman Curry Paste (jar)", quant: 1 },
+                    { ing: "Chicken Stock (cubes)", quant: 2 },
+                    { ing: "Fish Sauce (tbsp)", quant: 2 },
+                    { ing: "Lemon (whole)", quant: 1 },
+                    { ing: "Brown Sugar (tsp)", quant: 1 },
+
+                ],
+                img: "https://img.bestrecipes.com.au/vBh5pi7t/w643-h428-cfill-q90/br/2018/03/slow-cooker-massaman-beef-recipe-513833-1.jpg",
+                blurb: "Massaman curry is comfort at every bite",
+                recipe: "https://www.bestrecipes.com.au/recipes/slow-cooker-massaman-curry-recipe/g683sql9",
+                tags: ["All", "Asia/Thai"]
+            },
+            {
+                id: 34,
+                name: "Slow Cook Butter Chicken",
+                ingredients: [
+                    { ing: "Chicken Thighs (kg)", quant: 1 },
+                    { ing: "Greek Yoghurt (g)", quant: 100 },
+                    { ing: "Cumin (tsp)", quant: 2 },
+                    { ing: "Coriander (tsp)", quant: 2 },
+                    { ing: "Turmeric (tsp)", quant: 2 },
+                    { ing: "Garam Masala (tsp)", quant: 3 },
+                    { ing: "Garlic (cloves)", quant: 3 },
+                    { ing: "Ginger (g)", quant: 10 },
+                    { ing: "Passata (Jar)", quant: 1 },
+                    { ing: "Tomato Puree (tbsp)", quant: 2 },
+                    { ing: "Double Cream (ml)", quant: 200 },
+                    { ing: "Caster Sugar (tsp)", quant: 2 },
+
+                ],
+                img: "https://img.bestrecipes.com.au/RbTLJTbs/w643-h428-cfill-q90/br/2020/06/slow_cooker_butter_chicken_final-958270-1.jpg",
+                blurb: "Simply delicious butter chicken",
+                recipe: "https://www.bestrecipes.com.au/recipes/slow-cooker-butter-chicken-recipe/xt20hq0m?r=easydinners/l9cbqwvr&h=easy%20dinners",
+                tags: ["All", "Indian"]
             }
         ]
 
